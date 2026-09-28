@@ -8,35 +8,67 @@
     <link rel="stylesheet" href="style..css">
 </head>
 <body>
+    <section id="home">
+    <div class="home-content">
+        <div class="home-text">
+            <p class="welcome-text">Hello👋I am</p>
+            <h1>Harika Duddukuri</h1>
+            <h2>
+                I build <span id="typing-text"></span>
+            </h2>
+            <p class="home-skills">
+                Java | JavaScript | Web Development
+            </p>
+            <p class="intro">
+                I am a Computer Science Engineering graduate with an interest
+                in software development, problem solving.
+                Currently, I am developing my technical skills through practical
+                training and project-based learning.
+            </p>
+            <div class="home-buttons">
+                <a href="#projects" class="btn primary-btn">View My Projects</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                <a href="Resume.pdf" class="btn resume-btn" target="_blank">
+                    View Resume
+                </a>
+                <a href="https://github.com/Harika-duddukuri" class="btn social-btn" target="_blank">
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/harika-duddukuri-a26063439" class="btn social-btn" target="_blank">
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+        <div class="home-photo">
+            <img src="WhatsApp Image 2026-09-25 at 15.03.28.jpeg" alt="Harika Duddukuri">
+        </div>
+    </div>
+</section>
 <nav>
-    <h2>Harika Duddukuri</h2>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
     <div class="nav-links">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
-        <a href="#exeperience">Experience</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
-        <a href="#responsiability">Responsiability</a>
-        <a href="#certifications">Certifications</a>
+        <a href="#responsibility">Positions of Responsibility</a>
+        <a href="#certificates">Certifications</a>
         <a href="#contact">Contact</a>
     </div>
 </nav>
-<section id="home">
-    <h1>Hello, I'm Harika 👋</h1>
-    <h2>Computer Science Engineering Student</h2>
-    <p>Software Developer | HTML | CSS | Bootstrap | JavaScript</p>
-</section>
 <section id="about">
     <h2>About Me</h2>
     <p>
-        I am a Computer Science Engineering student with an interest in
-        software development and problem solving. I have experience working
+        I am a Computer Science Engineering graduate with an interest in
+        software development and problem solving. I have hands-on experience
         with HTML, CSS, Bootstrap, JavaScript and Java.
     </p>
     <p>
-        Currently, I am working as an Intern at Dyashin Technosoft,
-        Bengaluru, where I am developing my technical and software development skills.
+        Currently, I am working as an Software Development Intern at Dyashin Technosoft,
+        Bengaluru, where I am developing my programming, technical and software development skills
+        through technical traning,practical assignments, and project-based learning.
     </p>
 </section>
 <section id="education">
@@ -63,13 +95,31 @@
     </div>
 </section>
 <section id="skills">
-    <h2>My Skills</h2>
+    <h2>Technical Skills</h2>
     <div class="skills-container">
-    <div class="skill">HTML</div>
-    <div class="skill">CSS</div>
-    <div class="skill">Bootstrap</div>
-    <div class="skill">JavaScript</div>
-    <div class="skill">Java</div>
+    <div class="skill-category">
+        <h3>Programming</h3>
+        <p>Java</p>
+        <p>Python</p>
+        <p>C</p>
+    </div>
+    <div class="skill-category">
+        <h3>Web Development</h3>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Bootstrap</p>
+        <p>JavaScript</p>
+    </div>
+    <div class="skill-category">
+        <h3>Machine Learning</h3>
+        <p>Random Forest</p>
+        <p>TF-IDF</p>
+    </div>
+    <div class="skill-category">
+        <h3>Tools & Technologies</h3>
+        <p>Git</p>
+        <p>GitHub</p>
+    </div>
     </div>
 </section>
 <section id="experience">
@@ -92,6 +142,7 @@
 </section>
 <section id="projects">
     <h2>Projects</h2>
+    <div class="project-container">
 <div class="project-card">
     <img src="Duddukuri Harika Naga Durga Chandramani_page-0001.jpg"
          alt="Customer Churn Prediction Certificate"
@@ -180,8 +231,9 @@
         May 2024 – July 2024
     </p>
 </div>
-<section id="responsiability">
-    <h2>Positions of Responsability</h2>
+</div>
+<section id="responsibility">
+    <h2>Positions of Responsibility</h2>
     <div style="margin-top: 100px;">
     <div class="responsibility-container">
         <div class="responsibility-card">
@@ -203,26 +255,29 @@
     <h2>Certificates</h2>
     <div class="certificates-container">
         <div class="certificate-card">
-            <img src="Harika Duddukuri (1)_page-0001.jpg" alt="Project Management Certificate">
+            <img src="DOC-20231101-WA0001. (1)_page-0001.jpg" alt="Project Management Certificate">
             <h3>Project Management</h3>
             <p><strong>Issued by:</strong> Infosys Springboard</p>
-            <p><strong>Issued:</strong>October 31, 2023</p>
-            <a href="Harika Duddukuri (1)_page-0001.jpg" target="_blank">
+            <p class="certificate-date"><strong>Issued:</strong>
+            October 31, 2023</p>
+            <a href="DOC-20231101-WA0001. (1)_page-0001.jpg" target="_blank">
             </a>
         </div>
         <div class="certificate-card">
-            <img src="DOC-20231101-WA0001. (1)_page-0001.jpg" alt="Data Structures in C Certificate">
+            <img src="Harika Duddukuri (1)_page-0001.jpg" alt="Data Structures in C Certificate">
             <h3>Data Structures in C</h3>
             <p><strong>Issued by:</strong> Great Learning Academy</p>
-            <p><strong>Issued:</strong> July 2024</p>
-            <a href="DOC-20231101-WA0001. (1)_page-0001.jpg" target="_blank">
+            <p class="certificate-date"><strong>Issued:</strong>
+            July, 2024</p>
+            <a href="Harika Duddukuri (1)_page-0001.jpg" target="_blank">
             </a>
         </div>
         <div class="certificate-card">
             <img src="2eb4c0e75a4c40018c69c1f10272930a_page-0001.jpg" alt="Introduction to MongoDB Certificate">
             <h3>Introduction to MongoDB</h3>
             <p><strong>Issued by:</strong> Simplilearn SkillUp</p>
-            <p><strong>Issued:</strong> 7th October 2025</p>
+            <p class="certificate-date"><strong>Issued:</strong>
+            7 October, 2025</p>
             <p><strong>Certificate Code:</strong> 9115507</p>
             <a href="2eb4c0e75a4c40018c69c1f10272930a_page-0001.jpg" target="_blank">
             </a>
@@ -233,20 +288,106 @@
     <h2>Contact Me</h2>
     <div class="contact-container">
         <p>
-            <strong>Email:</strong>
-            <a 
-            href="duddukuriharika@gmail.com" 
-            target="_blank"></a>
-            duddukuriharika@gmail.com
-        </p>
-        <p>
-            <strong>GitHub:</strong>
-            <a href="https://github.com/Harika-duddukuri" target="_blank">
-                Harika-duddukuri
-            </a>
+            <p>
+    <a href="mailto:duddukuriharikaduddukuri@gmail.com">
+        <svg width="22" height="22" viewBox="0 0 24 24"
+             fill="#D44638" style="vertical-align: middle; margin-right: 6px;">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+        </svg>
+    </a>
+    <strong>Email:</strong>
+    <a href="mailto:duddukuriharikaduddukuri@gmail.com">
+        duddukuriharikaduddukuri@gmail.com
+    </a>
+</p>
+    <p>
+    <a href="https://github.com/Harika-duddukuri" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24"
+             fill="black" style="vertical-align: middle; margin-right: 6px;">
+            <path d="M12 2C6.48 2 2 6.58 2 12.24c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.35 1.12 2.93.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.15-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.1 9.1 0 0 1 12 7.54c.85 0 1.71.12 2.51.36 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.25 10.25 0 0 0 22 12.24C22 6.58 17.52 2 12 2z"/>
+        </svg>
+    </a>
+    <strong>GitHub:</strong>
+    <a href="https://github.com/Harika-duddukuri" target="_blank">
+        Harika-duddukuri
+    </a>
+</p>
+</p>
+<p>
+    <a href="https://www.linkedin.com/in/harika-duddukuri-a26063439" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24"
+             fill="#0A66C2" style="vertical-align: middle; margin-right: 6px;">
+            <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.29zM5.32 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM3.54 20.45h3.56V8.99H3.54v11.46zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0z"/>
+        </svg>
+    </a>
+    <strong>LinkedIn:</strong>
+    <a href="https://www.linkedin.com/in/harika-duddukuri-a26063439" target="_blank">
+        harika-duddukuri
+    </a>
+</p>
         </p>
     </div>
 </section>
     <script src="script.js"></script>
+    <button id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        ↑
+    </button>
+    <script>
+        function toggleMenu() {
+        document.querySelector(".nav-links").classList.toggle("active");
+        }
+        const words = [
+    "cool things",
+    "codes",
+    "algorithms",
+    "websites",
+    "applications"
+];
+let wordIndex = 0;
+let charIndex = 0;
+let deleting = false;
+function typeText() {
+    const currentWord = words[wordIndex];
+    const typingText = document.getElementById("typing-text");
+    if (!deleting) {
+        typingText.textContent = currentWord.substring(0, charIndex + 1);
+        charIndex++;
+        if (charIndex === currentWord.length) {
+            deleting = true;
+            setTimeout(typeText, 1200);
+            return;
+        }
+    } else {
+        typingText.textContent = currentWord.substring(0, charIndex - 1);
+        charIndex--;
+        if (charIndex === 0) {
+            deleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+        }
+    }
+    setTimeout(typeText, deleting ? 50 : 80);
+}
+typeText();
+
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".nav-links a");
+window.addEventListener("scroll", () => {
+    let currentSection = "";
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - 150;
+        const sectionHeight = section.clientHeight;
+        if (window.scrollY >= sectionTop &&
+            window.scrollY < sectionTop + sectionHeight) {
+            currentSection = section.getAttribute("id");
+        }
+    });
+    navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === "#" + currentSection) {
+            link.classList.add("active");
+        }
+    });
+});
+    </script>
 </body>
 </html>
